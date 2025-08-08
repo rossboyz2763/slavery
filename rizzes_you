@@ -1,1 +1,12 @@
-
+"""rizz"""
+while True:
+    name = input("Enter your username - must be between 8-20 letters:")
+    name_len = len(name)
+    if name.isalpha():
+        if name_len > 7 and name_len <21:
+            print("Thank you for your username")
+            break
+        else:
+            print("Invalid input, try again")
+    else:
+        print("Invalid input, try again")
